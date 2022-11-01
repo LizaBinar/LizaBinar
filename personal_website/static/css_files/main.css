@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+}
+
+svg {
+    /*min-width: 25px;*/
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.padding_right_svg {
+    padding-right: 15px;
+}
+
+.photo {
+    background-image: url('https://hsto.org/getpro/moikrug/uploads/user/100/062/388/8/avatar/medium_f4eb0b0f59edba896b81366efabdb7b9.jpg');
+);
+    background-size: cover;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    border: 3px solid #dee2e6;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%
+}
+
+.animation {
+  transform: translateX(100%);
+  animation: ani 1s forwards;
+}
+
+@keyframes ani {
+  0% {transform: translateX(100%);}
+  100% {transform: translateY(0);}
+}
+
+.Placeholder {
+    /*height: 200px;*/
+    /*margin-top: 20px;*/
+    /*margin-bottom: 20px;*/
+}
+
+/*background-color: rgba($black, .08)*/
+/*&--small*/
+/*    height: 100px*/
+/*&--medium*/
+/*    height: 300px*/
+/*&--large*/
+/*    height: 600px*/
