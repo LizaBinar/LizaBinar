@@ -4,16 +4,7 @@ const lg_width = 991
 // Получаем нужный элемент
 
 
-// Запускаем функцию при прокрутке страницы
-window.addEventListener('scroll', function () {
-    let index;
-    for (index = 0; index < element.length; ++index) {
-        console.log(element[index]);
-    }
-});
 
-// А также запустим функцию сразу. А то вдруг, элемент изначально видно
-Visible(element);
 
 
 function adaptBlock() {
